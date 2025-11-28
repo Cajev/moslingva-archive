@@ -1,0 +1,36 @@
+.grammar {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  color: #e0e0e0;
+}
+
+.grammar h2 {
+  color: #a78bfa;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.grammar-section {
+  margin-bottom: 2.5rem;
+  border-left: 5px solid #646cff44;
+  padding-left: 1.2rem;
+  background: rgba(100, 108, 255, 0.04);
+  border-radius: 8px;
+}
+
+.grammar-section h3 {
+  margin-top: 0;
+  color: #a78bfa;
+}
+
+.grammar-section ul {
+  list-style: disc inside;
+  margin-bottom: 1rem;
+}
+
+.grammar-section li {
+  margin-bottom: 0.25rem;
+}
