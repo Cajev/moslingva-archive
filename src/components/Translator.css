@@ -1,0 +1,66 @@
+.translator {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  border-radius: 16px;
+  color: #e0e0e0;
+}
+
+.translator h2 {
+  color: #a78bfa;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}
+
+.translator-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.translator-controls select, .translator-controls input {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  background: #202250;
+  border: 2px solid #a78bfa44;
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.translator-controls button {
+  padding: 0.7rem 1.3rem;
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.22s;
+}
+
+.translator-controls button:hover {
+  background: #535bf2;
+  color: #fff;
+}
+
+.translator-result {
+  margin-top: 2rem;
+  color: #51e6c7;
+  font-size: 1.3rem;
+}
+
+.dict-details {
+  margin-top: 1.5rem;
+  background: rgba(100, 108, 255, 0.05);
+  border-radius: 10px;
+  padding: 0.8rem;
+  color: #FFF;
+  box-shadow: 0 2px 14px #1a1a2e33;
+}
+
+.dict-details div {
+  padding: 0.2rem 1rem;
+}
